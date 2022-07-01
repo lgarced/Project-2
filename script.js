@@ -11,6 +11,7 @@ const adultsInput = document.getElementById("adults-input");
 const childrenInput = document.getElementById("children-input");
 const infantsInput = document.getElementById("infants-input");
 const searchButton = document.getElementById("search-button");
+
 const searchResultsSeparator = document.getElementById(
     "search-results-separator"
 );
@@ -35,6 +36,7 @@ const reset = () => {
     infantsInput.value = 0;
     searchButton.disabled = true;
 };
+
 
 const formatDate = (date) => {
     const [formattedDate] = date.toISOString().split("T");
@@ -156,6 +158,7 @@ searchButton.addEventListener("click", async () => {
     const results = await search();
     searchResultsLoader.classList.add("d-none");
     showResults(results);
+
 });
 
 reset();
