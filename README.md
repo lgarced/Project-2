@@ -43,14 +43,6 @@ Deployed Site [here]()
 
 ## Video of utilizing the app.
 
-![Example of start screen]()
-
-![Example of creating a login "short video"]()
-
-![Example of logining to the website "short video"]()
-
-![Example of searching for a desitination and cost of fight "short video"]()
-
 # Stack:
 *Java, Node.js, Express.js, Handlebars.js
 
