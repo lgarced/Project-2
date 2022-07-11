@@ -78,6 +78,6 @@ Deployed Site [here]()
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* Take a look at the websie here https://voyage-advisor.herokuapp.com/
 
 * The URL of the GitHub repository. Give the repository a unique name and include a ReadMe describing the project.
